@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/c1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.brackets div.bracketbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 4px solid #008dd2;
+    border-right: 4px solid #008dd2;
+    border-bottom: 4px solid #008dd2;
+}
+
+.brackets div.bracketbox>span {
+    position: absolute;
+    left: 40px;
+    font-size: 0.85em;
+
+}
+
+.brackets div.bracketbox>span.info1 {
+    position: absolute;
+    top: -20px;
+    left: 280px;
+    font-size: 0.8em;
+    color: #BBB;
+    display: none;
+}
+
+.brackets div.bracketbox>span.info2 {
+    position: absolute;
+    bottom: -20px;
+    left: 280px;
+    font-size: 0.8em;
+    color: #BBB;
+    display: none;
+}
+
+.brackets div.bracketbox>span.teama {
+    top: -13.5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px 20px;
+    border: 4px solid #008dd2;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.brackets div.bracketbox>span.teamb {
+    bottom: -13.5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px 20px;
+    border: 4px solid #008dd2;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.brackets div.bracketbox>span.teamc {
+    bottom: -13.5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px 20px;
+    border: 4px solid #008dd2;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#l1 {
+    font-size: 70px;
+    color: #008dd2;
+    text-shadow: 2px 2px #020202;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
